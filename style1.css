@@ -1,0 +1,106 @@
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 38px 0 12px 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: 26px;
+}
+
+section {
+  background-color: #fff;
+  background: url('freepik-glass-sphere.jpg');
+  background-position: -52px -62.5px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: 287px;
+  min-height: 510px;
+  border-radius: 38px;
+  margin-top: 20px;
+}
+
+#input input {
+  height: 35px;
+  outline: none;
+  border: 1.3px solid cyan;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 0 8px;
+}
+
+#input {
+  margin-bottom: 6px;
+}
+
+#input button {
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  background-color: green;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#input button:hover {
+  background-color: darkgreen;
+  box-shadow: 0 0 20px cyan;
+}
+
+#task {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.taskLists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2px 0px;
+  margin: 0 2px 0 0;
+  margin-bottom: 5px;
+  background-color: #444;
+  border-radius: 5px;
+  font-family: franklin gothic medium;
+}
+
+#task li {
+  flex-grow: 1;
+  margin: 0;
+  padding: 8px;
+  list-style-type: none;
+  color: #fd56cb;
+  font-size: 17px;
+}
+
+#task i {
+  font-size: 22px;
+  margin-right: 8px;
+  color: red;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#task i:hover {
+  transform: scale(1.2);
+}
